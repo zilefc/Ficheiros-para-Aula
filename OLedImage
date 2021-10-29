@@ -1,0 +1,19 @@
+#include <SPI.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+Adafruit_SSD1306 oled(-1);
+
+
+void setup()
+{
+
+  oled.begin(SSD1306_SWITCHCAPVCC, 0x3C);
+}
+void loop() {
+  oled.clearDisplay();
+  oled.drawBitmap(0, 0,  myBitmapfotoArduino, 128, 64, WHITE);
+  oled.display();
+  delay(2000);
+}
