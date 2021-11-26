@@ -1,0 +1,27 @@
+html {
+    font-family: Arial;
+    text-align: center;
+  }
+  h1 {
+    color: #0F3376;
+    padding: 2vh;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+  .tit{
+    line-height: 0%;
+  }
+  .button {
+
+    background-color: #008CBA;
+    color: white;
+    padding: 16px;
+    font-size: 30px;
+
+   
+  }
+  .button2 {
+    background-color: #f44336;
+  }
