@@ -1,0 +1,116 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eaeaea;
+  padding-top: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #39393a;
+  font-size: 1.6rem;
+}
+
+h1,
+h2 {
+  color: #1b1b1b;
+  text-align: center;
+}
+
+.container {
+  background: #ffffff;
+  width: min(90%, 500px);
+  margin: auto;
+  padding: 2.4rem 1.6rem;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+header {
+  border-radius: 0.4rem 0.4rem 0 0;
+  text-align: center;
+}
+
+main {
+  border-radius: 0 0 0.4rem 0.4rem;
+}
+
+main h1 {
+  margin-bottom: 2rem;
+}
+
+form fieldset {
+  border: 0;
+}
+
+fieldset legend {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+fieldset div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-bottom: 2.4rem;
+  margin-bottom: 2.4rem;
+  border-bottom: 1px solid #39393a;
+}
+
+fieldset:last-child div {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+fieldset div button {
+  width: 48%;
+  margin-top: 1.2rem;
+  height: 3.2rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  border: 0;
+  border-radius: 0.2rem;
+}
+
+fieldset div button.led-on {
+  background: #49aa26;
+  color: #fff;
+}
+
+fieldset div button.led-on:hover {
+  background: #2d4a22;
+  color: #fff;
+}
+
+fieldset div button.led-off {
+  background: none;
+  color: #e92929;
+  border: 2px solid #e92929;
+  opacity: 0.6;
+}
+
+fieldset div button.led-off:hover {
+  opacity: 1;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  color: #8f8f8f;
+  font-size: 1.2rem;
+}
