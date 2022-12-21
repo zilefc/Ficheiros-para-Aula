@@ -15,10 +15,10 @@ void setup(){
 
 void loop(){
   lcd.clear(); 
-	lcd.setCursor(0, 0);
-	lcd.print("TMEeducation.com");
-  
-	lcd.setCursor(0, 1);
+  lcd.setCursor(0, 0);
+  lcd.print("TMEeducation.com");
+  lcd.setCursor(0, 1);
   lcd.print("Hello Maputo");
+  delay(150);
   
 }
